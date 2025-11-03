@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+
+
+@media print {
+  .print\:mt-0 { margin-top: 0 !important; }
+  .break-inside-avoid { break-inside: avoid; page-break-inside: avoid; }
+  body { background: white !important; }
+}
